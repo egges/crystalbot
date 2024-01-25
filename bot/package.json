@@ -1,0 +1,35 @@
+{
+  "name": "crystalbot",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "rm -rf dist .cache && node tools/dev.js",
+    "build": "node tools/main.js",
+    "server": "node index.js",
+    "clean": "rm -rf dist .cache"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^2.3.4",
+    "@types/lodash": "^4.14.119",
+    "@types/mongodb": "^3.1.18",
+    "@types/mongoose": "^5.3.7",
+    "@types/node": "^10.12.18",
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "body-parser": "^1.18.3",
+    "ccxt": "^1.18.87",
+    "coinbase": "^2.0.8",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mathjs": "^5.4.0",
+    "mongoose": "^5.4.1",
+    "parcel-bundler": "^1.11.0",
+    "promise-retry-or-throw": "^1.0.5",
+    "simple-statistics": "^7.0.0",
+    "typescript": "^3.2.2",
+    "winston": "^3.1.0",
+    "winston-syslog": "^2.0.0"
+  }
+}
