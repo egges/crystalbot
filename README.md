@@ -1,0 +1,2 @@
+# crystalbot
+Crypto trading app
